@@ -1,0 +1,70 @@
+/* Footer.css */
+.footer-bar {
+  width: 100%;            /* خليه ياخد عرض الصفحة */
+  padding: 21px 23px;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  box-shadow: none;
+  border-top-right-radius: 0;
+  pointer-events: auto;
+  position: static;       /* ← أهم نقطة */
+}
+
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  min-width: 165px;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.footer-address {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 12px;
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+
+.footer-separator {
+  border-right: 1.5px solid #aaa;
+  height: 60px;
+  margin: 0 16px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-links-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  min-width: 155px;
+}
+
+.footer-links-group a {
+  color: #111;
+  text-decoration: underline;
+  margin-bottom: 6px;
+  transition: color 0.18s;
+}
+
+.footer-links-group a:last-child {
+  margin-bottom: 0;
+}
+
+.footer-links-group a:hover {
+  color: #2e8ac7;
+}

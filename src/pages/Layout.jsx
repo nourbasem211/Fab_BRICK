@@ -1,16 +1,20 @@
-
-import Navbar from './../components/Navbar';
-import { Outlet } from 'react-router-dom';
-import Footer from './../components/Footer';
+// src/pages/Layout.jsx
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import CartSidebar from "../components/CartSidebar";
+import Footer from "../components/Footer";
 
 export default function Layout() {
   return (
-    <div className='flex min-h-screen flex-col justify-between items-center'>
-      <Navbar/>
-      <div className="">
-        <Outlet/>
-      </div>
-      <Footer/>
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <CartSidebar />
+
+      <main className="flex-1">
+        <Outlet />
+      </main>
+
+      <Footer />
     </div>
-  )
+  );
 }
