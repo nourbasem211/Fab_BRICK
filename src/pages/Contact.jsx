@@ -18,7 +18,7 @@ const instaImages = [
 export default function Contact() {
   return (
     <div className="min-h-screen flex flex-col md:flex-row">
-          {/* النصف الشمال – CONTACT */}
+          {/* left half – CONTACT */}
       <section className="flex-1 bg-black text-white px-8 md:px-20 lg:px-28 py-16 md:py-20 flex flex-col">
         <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-[0.18em] mb-3">
@@ -86,7 +86,7 @@ export default function Contact() {
       </section>
 
 
-      {/* النصف اليمين – INSTAGRAM */}
+      {/* right half – INSTAGRAM */}
       <section className="flex-1 bg-white px-8 md:px-16 lg:px-24 py-16 md:py-20 flex flex-col">
         <div className="text-center">
           <h1 className="text-3xl md:text-4xl font-extrabold tracking-[0.18em] mb-3">

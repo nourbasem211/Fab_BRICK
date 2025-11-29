@@ -59,7 +59,7 @@
   line-height: 1.55;
 }
 
-/* الصورة الكبيرة بعد السكشن الأول */
+/* big photo after first section */
 .aboutus-img-section {
   width: 100vw;
   display: flex;
@@ -194,10 +194,10 @@
 
 .team-row-single {
   display: flex;
-  justify-content: flex-start;     /* الصورة على اليمين */
+  justify-content: flex-start;     
   gap: 0;
   margin-bottom: 34px;
-  margin-left: 120px;              /* تحريك الصورة قليلاً للداخل */
+  margin-left: 120px;            
 }
 
 /* Responsive */

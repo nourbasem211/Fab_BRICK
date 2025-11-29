@@ -28,7 +28,7 @@ const team = [
   
 
 export default function AboutUs() {
-  // تجميع كل 3 في صف والباقي آخر عنصر وحده
+  // Group every 3 in a row and the remaining last element alone
   const teamRows = [];
   for (let i = 0; i < 9; i += 3) {
     teamRows.push(team.slice(i, i + 3));
@@ -37,7 +37,7 @@ export default function AboutUs() {
 
   return (
     <div>
-      {/* 1- سكشن المعلومات AboutUs */}
+      {/*  AboutUs */}
       <div className="aboutus-flex">
         <div className="aboutus-left">
           <div className="aboutus-details">
@@ -62,12 +62,12 @@ export default function AboutUs() {
         </div>
       </div>
 
-      {/* 2- الصورة الكبيرة في الوسط */}
+      {/* 2- big photo in the middle */}
       <div className="aboutus-img-section">
         <img src={aboutImg} alt="About Section" className="aboutus-img-big" />
       </div>
 
-      {/* 3- سكشن Our Story بعد الصورة */}
+      {/* 3- Our Story section  */}
       <section className="aboutus-story-content">
         <h1 className="aboutus-title-center">Our Story</h1>
         <div className="aboutus-underline"></div>
@@ -79,11 +79,11 @@ export default function AboutUs() {
         </p>
       </section>
 
-      {/* 4- سكشن Our Team بعد القصة */}
+      {/* 4- Our Team section  */}
       <section className="team-section">
         <h2 className="team-title">Our Team</h2>
         <div className="team-underline"></div>
-        {/* كل الصفوف 3 صور في صف */}
+       
         {teamRows.map((row, idx) => (
           <div key={idx} className="team-row">
             {row.map(member => (
@@ -97,7 +97,7 @@ export default function AboutUs() {
             ))}
           </div>
         ))}
-        {/* الصورة الأخيرة وحدها في سطر منفصل */}
+        
         <div className="team-row team-row-single">
           <div className="team-member" key={lastRow[0].name}>
             <div className="team-img-wrap">

@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <nav className="bg-neutral-primary w-full border-default">
       <div className="max-w-[1440px] mx-auto flex items-center justify-between px-4 md:px-8 py-3 md:py-4">
-        {/* الشمال: لوجو + لينكات */}
+        {/* left: logo + links */}
         <div className="flex items-center gap-6 md:gap-10">
           <Link to="/">
             <img src={logo} alt="logo" className="h-8 md:h-10" />
@@ -37,7 +37,7 @@ export default function Navbar() {
           </ul>
         </div>
 
-        {/* اليمين: أيقونة الكارت */}
+        {/* right: cart icon */}
         <button
           onClick={() => dispatch(toggleCart())}
           className="relative ml-3"

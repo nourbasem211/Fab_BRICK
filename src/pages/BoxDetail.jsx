@@ -38,7 +38,7 @@ export default function BoxDetail() {
 
   return (
     <section className="box-section">
-      {/* الشمال: الصور */}
+      {/* photo left */}
       <div className="box-left">
         <div className="box-main-img-wrap">
           <img src={box.images[activeIndex]} alt={box.name} />
@@ -56,7 +56,7 @@ export default function BoxDetail() {
         </div>
       </div>
 
-      {/* اليمين: التفاصيل */}
+      {/* right: details */}
       <div className="box-right">
         <h1 className="box-title">{box.name}</h1>
         <div className="box-price">{box.price}</div>

@@ -1,5 +1,5 @@
 .projects-wrapper {
-  max-width: 1200px;      /* أضيق من 1440 عشان كل حاجة تبان في النص */
+  max-width: 1200px;      
   margin: 0 auto;
   padding: 40px 0 40px 0;
 }
@@ -8,13 +8,13 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 20px;       /* مسافة صغيرة بين الأعمدة */
-  row-gap: 26px;          /* مسافة صغيرة بين الصفوف */
-  justify-items: center;  /* كل بوكس في نص العمود بتاعه */
+  column-gap: 20px;       
+  row-gap: 26px;          
+  justify-items: center;  
 }
 
 .project-image-box {
-  width: 360px;           /* أصغر من الأول */
+  width: 360px;           
   height: 360px;
   display: flex;
   align-items: center;

@@ -21,7 +21,7 @@
   margin-bottom: 40px;
 }
 
-/* الشريط */
+/* Strip */
 .samples-strip-wrapper {
   overflow: hidden;
   width: 100vw;
@@ -47,7 +47,7 @@
   display: block;
 }
 
-/* أنيميشن الحركة */
+/* Animation */
 @keyframes samples-scroll {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
@@ -59,6 +59,7 @@
     height: 320px;
   }
 }
+
 
 /* OPTION 1 */
 
@@ -82,7 +83,6 @@
   margin-bottom: 26px;
 }
 
-/* الكروت */
 .option1-grid {
   display: flex;
   gap: 40px;
@@ -95,7 +95,7 @@
   color: inherit;
 }
 
-/* حاوية الصورتين */
+
 .option1-img-wrap {
   position: relative;
   width: 100%;
@@ -104,7 +104,7 @@
   border-radius: 18px;
 }
 
-/* الصورتين فوق بعض */
+
 .option1-img-wrap .img-base,
 .option1-img-wrap .img-hover {
   position: absolute;
@@ -115,19 +115,18 @@
   transition: opacity 0.35s ease;
 }
 
-/* الإفتراضي: تظهر الصورة الأولى */
 .option1-img-wrap .img-base {
   opacity: 1;
   z-index: 1;
 }
 
-/* الصورة الثانية مخفية */
+
 .option1-img-wrap .img-hover {
   opacity: 0;
   z-index: 2;
 }
 
-/* عند الـ hover على الكارد، نبدّل */
+
 .option1-card:hover .img-base {
   opacity: 0;
 }
@@ -154,6 +153,7 @@
   }
 }
 
+
 /* OPTION 2 */
 
 .option2-section {
@@ -178,7 +178,7 @@
 
 .option2-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 في الصف */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 22px;
 }
 
@@ -229,7 +229,7 @@
   color: #111;
 }
 
-/* ريسبونسيف */
+/* Responsive */
 @media (max-width: 900px) {
   .option2-grid {
     grid-template-columns: repeat(2, 1fr);

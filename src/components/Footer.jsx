@@ -4,7 +4,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div className="footer-bar">
-      {/* الجزء الأيسر */}
+      {/* left part */}
       <div className="footer-info">
         <div>
           <div className="footer-title">FabBRICK® 2025</div>
@@ -17,7 +17,7 @@ export default function Footer() {
         </div>
         <div className="footer-separator"></div>
       </div>
-      {/* الروابط */}
+      {/* links */}
       <div className="footer-links">
         <div className="footer-links-group">
           <a href="#">Mode d'emploi revêtement</a>

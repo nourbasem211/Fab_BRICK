@@ -82,7 +82,7 @@ export default function Samples() {
 
   return (
     <>
-      {/* سكشن السلايدر */}
+      {/* slider  */}
       <section className="samples-section">
         <h2 className="samples-title">Receive our samples directly at home</h2>
         <p className="samples-subtitle">to help you bring your ideas to life</p>

@@ -14,7 +14,7 @@ export default function Option2Detail() {
   return (
     <div className="w-full flex justify-center">
       <div className="max-w-[1200px] w-full flex px-12 pt-16 pb-24 gap-16">
-        {/* الصورة 40% */}
+        {/* photo */}
         <div className="w-[40%]">
           <img
             src={product.img}
@@ -23,14 +23,14 @@ export default function Option2Detail() {
           />
         </div>
 
-        {/* العمود اليمين 60% */}
+        {/* right column  */}
         <div className="w-[60%] flex flex-col">
           <h1 className="text-xl tracking-[0.15em] font-semibold mb-2">
             {product.name}
           </h1>
           <div className="text-base mb-6">{product.price}</div>
 
-          {/* Quantity حالياً ثابتة */}
+          {/* Quantity currently fixed */}
           <div className="mb-6">
             <div className="text-xs mb-1">Quantity *</div>
             <div className="inline-flex items-center border border-gray-300 text-sm">

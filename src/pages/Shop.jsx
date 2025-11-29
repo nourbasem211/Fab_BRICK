@@ -9,7 +9,7 @@ export default function Shop() {
 
   return (
     <div className="w-full flex flex-col items-center pt-20 pb-16">
-      {/* النص العلوي */}
+      {/* top text */}
       <div className="text-center px-4">
         <p className="text-[22px] font-semibold mb-2">
           <span className="font-extrabold">Wall covering:</span>{' '}
@@ -33,7 +33,7 @@ export default function Shop() {
         </h2>
       </div>
 
-      {/* صور الشوب */}
+      {/* shop images */}
       <div className="w-full flex justify-center px-4">
         <div className="w-full max-w-[1120px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {shopImages.map((src, idx) => (

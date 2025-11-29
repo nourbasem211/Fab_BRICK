@@ -1,14 +1,36 @@
-// Projects.jsx
-import "./Projects.css";
+import './Projects.css';
+
+// Import all images
+import light from '../assets/image/light.jpg';
+import table from '../assets/image/table.jpg';
+import paint from '../assets/image/paint.jpg';
+import mirror from '../assets/image/mirror.jpg';
+import room from '../assets/image/room.jpg';
+import blue from '../assets/image/blue.jpg';
+import grey from '../assets/image/grey.png';
+import table2 from '../assets/image/table2.jpg';
+import piano from '../assets/image/piano.jpg';
+import greenBoard from '../assets/image/green-board.jpg';
+import ligthWall from '../assets/image/ligth-wall.jpg';
+import yellowChair from '../assets/image/yellow-chair.jpg';
+import pinkWood from '../assets/image/pink-wood.jpg';
+import purpleTable from '../assets/image/purple-table.jpg';
+import greenRoof from '../assets/image/green-roof.jpg';
+import hall from '../assets/image/hall.jpg';
+import hall2 from '../assets/image/hall2.jpg';
+import yellowStand from '../assets/image/yellow-stand.jpg';
+import greenSample from '../assets/image/green-sample.jpg';
+import orangeStand from '../assets/image/orange-stand.jpg';
+import pinkWall from '../assets/image/pink-wall.jpg';
 
 const images = [
-  "/src/assets/image/light.jpg", "/src/assets/image/table.jpg", "/src/assets/image/paint.jpg",
-  "/src/assets/image/mirror.jpg", "/src/assets/image/room.jpg", "/src/assets/image/blue.jpg",
-  "/src/assets/image/grey.png", "/src/assets/image/table2.jpg", "/src/assets/image/piano.jpg",
-  "/src/assets/image/green-board.jpg", "/src/assets/image/ligth-wall.jpg", "/src/assets/image/yellow-chair.jpg",
-  "/src/assets/image/pink-wood.jpg", "/src/assets/image/purple-table.jpg", "/src/assets/image/green-roof.jpg",
-  "/src/assets/image/hall.jpg", "/src/assets/image/hall2.jpg", "/src/assets/image/yellow-stand.jpg",
-  "/src/assets/image/green-sample.jpg", "/src/assets/image/orange-stand.jpg", "/src/assets/image/pink-wall.jpg",
+  light, table, paint,
+  mirror, room, blue,
+  grey, table2, piano,
+  greenBoard, ligthWall, yellowChair,
+  pinkWood, purpleTable, greenRoof,
+  hall, hall2, yellowStand,
+  greenSample, orangeStand, pinkWall
 ];
 
 export default function Projects() {
